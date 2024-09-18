@@ -13,8 +13,9 @@ To get a local copy up and running follow these simple example steps.
      ```pip3 install -r requirements.txt```
 3. Enter your API in `config.py`
    ```API_KEY = 'ENTER YOUR API'```
-4. Run ```python3 main.py doAll pom.xml``` to reset and download database, or ```detectOnly``` to leave the database as-is. ```pom.xml``` should be replaced with your test file.
-5. Get results! For example: 
+4. Unzip the database (vulnerabilities.7z) uzing 7z or another appropriate tool 
+5. Run ```python3 main.py doAll pom.xml``` to reset and download database, or ```detectOnly``` to leave the database as-is. ```pom.xml``` should be replaced with your test file.
+6. Get results! For example: 
 ```
 $ python3 main.py detectOnly pom-3.xml 
 Known security vulnerabilities detected:
